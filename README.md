@@ -1,2 +1,5 @@
 # williams-wdd-130
-This is my Final project site.
+# WDD 130 Final Project
+Owner: Jared Williams
+
+Semester: Winter 2021
