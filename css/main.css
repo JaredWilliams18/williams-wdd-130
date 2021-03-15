@@ -59,8 +59,13 @@ header a {
 header h1 {
     grid-column: 4;
     display: flex;
+<<<<<<< HEAD
+    align-items: center;
+    padding-left: 20px;
+=======
     align-items: cen
     padding-left:20px;
+>>>>>>> 1d22b30483c8f6a417fb12c770a649ac4f83a7a8
 }
 
 header nav {
@@ -108,12 +113,20 @@ section.first-row {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   padding: 10px;
+<<<<<<< HEAD
+  display: flex;
+  text-align: center;
+=======
+>>>>>>> 1d22b30483c8f6a417fb12c770a649ac4f83a7a8
 }
 
 section.first-row .left-column {
     grid-row: 1;
     grid-column: 1;
+<<<<<<< HEAD
+=======
     text-align: center;
+>>>>>>> 1d22b30483c8f6a417fb12c770a649ac4f83a7a8
 }
 
 section.first-row .right-column {
@@ -137,7 +150,10 @@ section.second-row .left-column {
 section.second-row .right-column {
   grid-row: 1;
   grid-column: 2;
+<<<<<<< HEAD
+=======
   text-align: center;
+>>>>>>> 1d22b30483c8f6a417fb12c770a649ac4f83a7a8
   padding-right: 35px;
 }
 
