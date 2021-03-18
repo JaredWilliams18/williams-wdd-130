@@ -83,7 +83,7 @@ header nav ul li {
 }
 
 /*
- * MAIN BODY Css
+ * MAIN BODY CSS
  * ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼
  */
 
@@ -331,3 +331,22 @@ body.dark-mode footer #dark-mode #tgl-wrapper .tgl + .tgl-btn {
 body.dark-mode footer #dark-mode #tgl-wrapper .tgl + .tgl-btn:after {
     background-color: var(--dark-border-color);
 }
+
+/*
+ * Contact Us Css
+ * ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼
+ */
+
+ div p {
+    
+ }
+
+  form {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto
+ }
+
+ form p, textarea, input, div {
+     grid-column: 2;
+ }
