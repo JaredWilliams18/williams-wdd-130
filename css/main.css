@@ -337,8 +337,9 @@ body.dark-mode footer #dark-mode #tgl-wrapper .tgl + .tgl-btn:after {
  * ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼
  */
 
- div p {
-    
+.Contact-Us-Info {
+    padding-left: 50px;
+    padding-right: 50px;
  }
 
   form {
@@ -347,6 +348,6 @@ body.dark-mode footer #dark-mode #tgl-wrapper .tgl + .tgl-btn:after {
     grid-template-rows: auto
  }
 
- form p, textarea, input, div {
+ form p, textarea, input, #contact-form-message {
      grid-column: 2;
  }
