@@ -10,7 +10,7 @@
     --border-color: black;
     /* Dark Mode Colors */
     --dark-background-color: black;
-    --dark-alt-background-color: darkslategray;
+    --dark-alt-background-color: #1c2f52;
     --dark-font-color: white;
     --dark-alt-font-color: gainsboro;
     --dark-border-color: white;
@@ -416,4 +416,21 @@ body.dark-mode footer #dark-mode #tgl-wrapper .tgl + .tgl-btn:after {
 
   .container p {
       word-wrap: break-word;
+  }
+
+  /*
+ * Merchandice Info Css
+ * ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼
+ */
+
+  #Merchinfo {
+    margin: 0 50px 0 50px
+  }
+
+  #Merchtable {
+    margin: 0 150px 0 150px 
+  }
+
+  #Merchtable thead, td {
+      border:1px solid black;
   }
