@@ -10,7 +10,7 @@
     --border-color: black;
     /* Dark Mode Colors */
     --dark-background-color: black;
-    --dark-alt-background-color: darkslategray;
+    --dark-alt-background-color: #1c2f52;
     --dark-font-color: white;
     --dark-alt-font-color: gainsboro;
     --dark-border-color: white;
@@ -388,3 +388,49 @@ body.dark-mode footer #dark-mode #tgl-wrapper .tgl + .tgl-btn:after {
       margin-left: 20px;
   }
 
+/*
+ * Photo Gallery Css
+ * ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼
+ */
+  #photogal, .indphoto {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+  }
+  
+  .indphoto {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .indphoto:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  #photogal .indphoto img {
+      align-items: center;
+  }
+
+  .container p {
+      word-wrap: break-word;
+  }
+
+  /*
+ * Merchandice Info Css
+ * ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼
+ */
+
+  #Merchinfo {
+    margin: 0 50px 0 50px
+  }
+
+  #Merchtable {
+    margin: 0 150px 0 150px 
+  }
+
+  #Merchtable thead, td {
+      border:1px solid black;
+  }
