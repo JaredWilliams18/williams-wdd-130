@@ -12,7 +12,7 @@
     --dark-background-color: black;
     --dark-alt-background-color: #1c2f52;
     --dark-font-color: white;
-    --dark-alt-font-color: gainsboro;
+    --dark-alt-font-color: #ffbd59;
     --dark-border-color: white;
 }
 
@@ -28,6 +28,22 @@ body {
     display: flex;
     flex-direction: column;
     font-size: 62.5%;
+}
+
+main {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+main h1 {
+    font-family: 'Lobster', cursive;
+}
+
+main h2 {
+    font-family: 'Lobster', cursive;
+}
+
+main button {
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 /*
@@ -197,12 +213,12 @@ footer nav ul li {
     margin-right: 7.5px;
 }
 
-footer #dark-mode {
+ footer #dark-mode {
     grid-row: 1;
     grid-column: 3;
 }
 
-footer #dark-mode .icon {
+ footer #dark-mode .icon {
     position: relative;
     display: inline-block;
     z-index: 100;
@@ -432,5 +448,6 @@ body.dark-mode footer #dark-mode #tgl-wrapper .tgl + .tgl-btn:after {
   }
 
   #Merchtable thead, td {
-      border:1px solid black;
+      border-style: solid;
   }
+
